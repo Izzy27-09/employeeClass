@@ -77,5 +77,4 @@ class Employee{
   string getDepartment(){
     return department;
   }
-
 };//end of class
