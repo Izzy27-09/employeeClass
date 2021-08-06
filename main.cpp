@@ -19,12 +19,9 @@ int main() {
       Options1(opt);
     }
     cout<<"\nPlease enter 1 to see/update 1st employee\n2 for the second one\n3 for the third one\n6-To print all data\nany other key to end program";
-    cin>>opt;
-    
-    
+    cin>>opt; 
   }
   cout<<"\n\nEnd of program";
-  
 }//end of main
 
 void Options1(int opt){
@@ -60,6 +57,4 @@ void Printer(int options1,int options2){
       cout<<"\n"<<h[i].Getname()<<"\t\t"<<h[i].GetId()<<"\t\t"<<h[i].getDepartment()<<"\t\t"<<h[i].getPosition()<<endl;
     }
   }
-
-
 }
